@@ -10,4 +10,6 @@ def scrap_book(page_url):
     }
 
 
-print(scrap_book('https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html'))
+book = scrap_book('https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html')
+1+1
+
