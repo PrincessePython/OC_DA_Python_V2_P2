@@ -21,6 +21,8 @@ def scrap_book(page_url):
 
 book = scrap_book('https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html')
 
+print(book)
+
 
 for name, value in book.items():
-    print(name, ' : ', value)
+   print(name, ' : ', value)
